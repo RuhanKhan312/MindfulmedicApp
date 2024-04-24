@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+
+    <group >
+
+        <item
+            android:id="@+id/nav_hosp"
+            android:icon="@drawable/hospital_icon"
+            android:title="Nearby Hospitals"
+            app:itemIconSize="20dp"/>
+
+        <item
+            android:id="@+id/nav_sos"
+            android:icon="@drawable/call_icon"
+            android:title="Call" />
+
+        <item
+            android:id="@+id/nav_cntus"
+            android:icon="@drawable/contact_icon"
+            android:title="Contact Us" />
+
+
+    </group>
+
+<!--    <item android:title="Communicate">-->
+
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/nav_share"-->
+<!--                android:icon="@drawable/share_icon"-->
+<!--                android:title="@string/menu_share" />-->
+
+<!--        </menu>-->
+<!--    </item>-->
+</menu>
